@@ -1,0 +1,248 @@
+class ShampooRunner{
+
+	public static void main(String[] args)
+	{
+	//classname reference= new classname();
+	//1
+	   Shampoo obj = new Shampoo();
+	   obj.brandName = "Clinic plus";
+	   obj.id = 1;
+	   obj.colour = "Blue";
+	   obj.price = 2.00;
+	   obj.mfgDate = "10/11/2024";
+	   obj.expDate = "15/05/2025";
+	   obj.washCars();
+	   System.out.println("The Shampoo Brand Name is "+ obj.brandName );
+	   System.out.println("The Shampoo Id is "+ obj.id );
+	   System.out.println("The Shampoo Colour is "+ obj.colour );
+	   System.out.println("The Shampoo Price is "+ obj.price );
+	   System.out.println("The Shampoo Manufacture Date is "+ obj.mfgDate );
+	   System.out.println("The Shampoo Expiry Date is "+ obj.expDate );
+//2	   
+	   System.out.println();
+	   Shampoo obj1 = new Shampoo();
+	   obj1.brandName ="Head&Shoulder";
+	   obj1.id = 2;
+	   obj1.colour = "White";
+	   obj1.price = 2.50;
+	   obj1.mfgDate = "09/12/2024";
+	   obj1.expDate = "12/03/2025";
+	   obj1.washCars();
+	   System.out.println("The Shampoo Brand Name is "+ obj1.brandName );
+	   System.out.println("The Shampoo Id is "+ obj1.id );
+	   System.out.println("The Shampoo Colour is "+ obj1.colour );
+	   System.out.println("The Shampoo Price is "+ obj1.price );
+	   System.out.println("The Shampoo Manufacture Date is "+ obj1.mfgDate );
+	   System.out.println("The Shampoo Expiry Date is "+ obj1.expDate );
+//3   
+	   System.out.println();
+	   Shampoo obj2 = new Shampoo();
+	   obj2.brandName ="Pantene";
+	   obj2.id = 3;
+	   obj2.colour = "black";
+	   obj2.price = 5.00;
+	   obj2.mfgDate = "09/12/2024";
+	   obj2.expDate = "12/03/2025";
+	   obj2.washCars();
+	   System.out.println("The Shampoo Brand Name is "+ obj2.brandName );
+	   System.out.println("The Shampoo Id is "+ obj2.id );
+	   System.out.println("The Shampoo Colour is "+ obj2.colour );
+	   System.out.println("The Shampoo Price is "+ obj2.price );
+	   System.out.println("The Shampoo Manufacture Date is "+ obj2.mfgDate );
+	   System.out.println("The Shampoo Expiry Date is "+ obj2.expDate );
+//4	   
+	   System.out.println();
+		Shampoo obj3 = new Shampoo();
+	   obj3.brandName ="Herbal Essences";
+	   obj3.id = 4;
+	   obj3.colour = "White";
+	   obj3.price = 2.00;
+	   obj3.mfgDate = "09/12/2024";
+	   obj3.expDate = "12/03/2025";
+	   obj3.washCars();
+	   System.out.println("The Shampoo Brand Name is "+ obj3.brandName );
+	   System.out.println("The Shampoo Id is "+ obj3.id );
+	   System.out.println("The Shampoo Colour is "+ obj3.colour );
+	   System.out.println("The Shampoo Price is "+ obj3.price );
+	   System.out.println("The Shampoo Manufacture Date is "+ obj3.mfgDate );
+	   System.out.println("The Shampoo Expiry Date is "+ obj3.expDate );
+   //5
+System.out.println();
+		Shampoo obj4 = new Shampoo();
+	   obj4.brandName ="Dove";
+	   obj4.id = 5;
+	   obj4.colour = "White";
+	   obj4.price = 2.00;
+	   obj4.mfgDate = "09/12/2024";
+	   obj4.expDate = "12/03/2025";
+	   obj4.washCars();
+	   System.out.println("The Shampoo Brand Name is "+ obj4.brandName );
+	   System.out.println("The Shampoo Id is "+ obj4.id );
+	   System.out.println("The Shampoo Colour is "+ obj4.colour );
+	   System.out.println("The Shampoo Price is "+ obj4.price );
+	   System.out.println("The Shampoo Manufacture Date is "+ obj4.mfgDate );
+	   System.out.println("The Shampoo Expiry Date is "+ obj4.expDate );
+//6
+		System.out.println();
+		Shampoo obj5 = new Shampoo();
+	   obj5.brandName ="Tresemme";
+	   obj5.id = 6;
+	   obj5.colour = "White";
+	   obj5.price = 10.50;
+	   obj5.mfgDate = "09/12/2024";
+	   obj5.expDate = "12/03/2025";
+	   obj5.washCars();
+	   System.out.println("The Shampoo Brand Name is "+ obj5.brandName );
+	   System.out.println("The Shampoo Id is "+ obj5.id );
+	   System.out.println("The Shampoo Colour is "+ obj5.colour );
+	   System.out.println("The Shampoo Price is "+ obj5.price );
+	   System.out.println("The Shampoo Manufacture Date is "+ obj5.mfgDate );
+	   System.out.println("The Shampoo Expiry Date is "+ obj5.expDate );
+//7
+		System.out.println();
+		Shampoo obj6 = new Shampoo();
+	   obj6.brandName ="Garnier";
+	   obj6.id = 7;
+	   obj6.colour = "White";
+	   obj6.price = 12.50;
+	   obj6.mfgDate = "09/12/2024";
+	   obj6.expDate = "12/03/2025";
+	   obj6.washCars();
+	   System.out.println("The Shampoo Brand Name is "+ obj6.brandName );
+	   System.out.println("The Shampoo Id is "+ obj6.id );
+	   System.out.println("The Shampoo Colour is "+ obj6.colour );
+	   System.out.println("The Shampoo Price is "+ obj6.price );
+	   System.out.println("The Shampoo Manufacture Date is "+ obj6.mfgDate );
+	   System.out.println("The Shampoo Expiry Date is "+ obj6.expDate );
+//8
+		System.out.println();
+		Shampoo obj7 = new Shampoo();
+	   obj7.brandName ="L'Oréal Paris";
+	   obj7.id = 8;
+	   obj7.colour = "pink";
+	   obj7.price = 112.50;
+	   obj7.mfgDate = "09/12/2024";
+	   obj7.expDate = "12/03/2025";
+	   obj7.washCars();
+	   System.out.println("The Shampoo Brand Name is "+ obj7.brandName );
+	   System.out.println("The Shampoo Id is "+ obj7.id );
+	   System.out.println("The Shampoo Colour is "+ obj7.colour );
+	   System.out.println("The Shampoo Price is "+ obj7.price );
+	   System.out.println("The Shampoo Manufacture Date is "+ obj7.mfgDate );
+	   System.out.println("The Shampoo Expiry Date is "+ obj7.expDate );
+//9
+		System.out.println();
+		Shampoo obj8 = new Shampoo();
+	   obj8.brandName ="Aussie";
+	   obj8.id = 9;
+	   obj8.colour = "White";
+	   obj8.price = 102.50;
+	   obj8.mfgDate = "09/12/2024";
+	   obj8.expDate = "12/03/2025";
+	   obj8.washCars();
+	   System.out.println("The Shampoo Brand Name is "+ obj8.brandName );
+	   System.out.println("The Shampoo Id is "+ obj8.id );
+	   System.out.println("The Shampoo Colour is "+ obj8.colour );
+	   System.out.println("The Shampoo Price is "+ obj8.price );
+	   System.out.println("The Shampoo Manufacture Date is "+ obj8.mfgDate );
+	   System.out.println("The Shampoo Expiry Date is "+ obj8.expDate );
+//10	
+	System.out.println();
+		Shampoo obj9 = new Shampoo();
+	   obj9.brandName ="Suave";
+	   obj9.id = 10;
+	   obj9.colour = "White";
+	   obj9.price = 2.50;
+	   obj9.mfgDate = "09/12/2024";
+	   obj9.expDate = "12/03/2025";
+	   obj9.washCars();
+	   System.out.println("The Shampoo Brand Name is "+ obj9.brandName );
+	   System.out.println("The Shampoo Id is "+ obj9.id );
+	   System.out.println("The Shampoo Colour is "+ obj9.colour );
+	   System.out.println("The Shampoo Price is "+ obj9.price );
+	   System.out.println("The Shampoo Manufacture Date is "+ obj9.mfgDate );
+	   System.out.println("The Shampoo Expiry Date is "+ obj9.expDate );
+//11	
+System.out.println();
+		Shampoo obj10 = new Shampoo();
+	   obj10.brandName ="Matrix";
+	   obj10.id = 11;
+	   obj10.colour = "White";
+	   obj10.price = 50.50;
+	   obj10.mfgDate = "09/12/2024";
+	   obj10.expDate = "12/03/2025";
+	   obj10.washCars();
+	   System.out.println("The Shampoo Brand Name is "+ obj10.brandName );
+	   System.out.println("The Shampoo Id is "+ obj10.id );
+	   System.out.println("The Shampoo Colour is "+ obj10.colour );
+	   System.out.println("The Shampoo Price is "+ obj10.price );
+	   System.out.println("The Shampoo Manufacture Date is "+ obj10.mfgDate );
+	   System.out.println("The Shampoo Expiry Date is "+ obj10.expDate );  
+//12	   
+	System.out.println();
+		Shampoo obj11 = new Shampoo();
+	   obj11.brandName ="Nexxus";
+	   obj11.id = 12;
+	   obj11.colour = "White";
+	   obj11.price = 62.50;
+	   obj11.mfgDate = "09/12/2024";
+	   obj11.expDate = "12/03/2025";
+	   obj11.washCars();
+	   System.out.println("The Shampoo Brand Name is "+ obj11.brandName );
+	   System.out.println("The Shampoo Id is "+ obj11.id );
+	   System.out.println("The Shampoo Colour is "+ obj11.colour );
+	   System.out.println("The Shampoo Price is "+ obj11.price );
+	   System.out.println("The Shampoo Manufacture Date is "+ obj11.mfgDate );
+	   System.out.println("The Shampoo Expiry Date is "+ obj11.expDate );
+//13	   
+	System.out.println();
+		Shampoo obj12 = new Shampoo();
+	   obj12.brandName ="Redken";
+	   obj12.id = 13;
+	   obj12.colour = "White";
+	   obj12.price = 42.50;
+	   obj12.mfgDate = "09/12/2024";
+	   obj12.expDate = "12/03/2025";
+	   obj12.washCars();
+	   System.out.println("The Shampoo Brand Name is "+ obj12.brandName );
+	   System.out.println("The Shampoo Id is "+ obj12.id );
+	   System.out.println("The Shampoo Colour is "+ obj12.colour );
+	   System.out.println("The Shampoo Price is "+ obj12.price );
+	   System.out.println("The Shampoo Manufacture Date is "+ obj12.mfgDate );
+	   System.out.println("The Shampoo Expiry Date is "+ obj12.expDate );
+//14
+		System.out.println();
+		Shampoo obj13 = new Shampoo();
+	   obj13.brandName ="OGX";
+	   obj13.id = 14;
+	   obj13.colour = "White";
+	   obj13.price = 7.50;
+	   obj13.mfgDate = "09/12/2024";
+	   obj13.expDate = "12/03/2025";
+	   obj13.washCars();
+	   System.out.println("The Shampoo Brand Name is "+ obj13.brandName );
+	   System.out.println("The Shampoo Id is "+ obj13.id );
+	   System.out.println("The Shampoo Colour is "+ obj13.colour );
+	   System.out.println("The Shampoo Price is "+ obj13.price );
+	   System.out.println("The Shampoo Manufacture Date is "+ obj13.mfgDate );
+	   System.out.println("The Shampoo Expiry Date is "+ obj13.expDate );
+//15 
+		System.out.println();
+		Shampoo obj14= new Shampoo();
+	   obj14.brandName ="Neutrogena";
+	   obj14.id = 15;
+	   obj14.colour = "White";
+	   obj14.price = 90.50;
+	   obj14.mfgDate = "09/12/2024";
+	   obj14.expDate = "12/03/2025";
+	   obj14.washCars();
+	   System.out.println("The Shampoo Brand Name is "+ obj14.brandName );
+	   System.out.println("The Shampoo Id is "+ obj14.id );
+	   System.out.println("The Shampoo Colour is "+ obj14.colour );
+	   System.out.println("The Shampoo Price is "+ obj14.price );
+	   System.out.println("The Shampoo Manufacture Date is "+ obj14.mfgDate );
+	   System.out.println("The Shampoo Expiry Date is "+ obj14.expDate );
+
+	}
+
+}
