@@ -1,0 +1,44 @@
+1)	Polymorphism is nothing but an Object behaving differently at given instance of time.Polymorphism is achieved only after inheritance is achieved,
+	there are two types of polymorphism 
+	i)Runtime Polymorphism(dynamic)-it is achieved by Method Overriding.
+	ii)Compiletime Polymorphism(static)-it is achieved by Method Overloading.
+	Syntax: ParentClass ObjectRef = new ChildClass();
+
+2) Constructor is a special type of method which contains same name as the class name without any returntype.there are two types of constructor
+	i)default constructor-this constructor is predefined or written by compiler if the user does not write,this constructor doesn't have any parameters
+	Syntax: AccessSpecifier ClassName()
+			{
+				sop();//statements
+			}
+	ii)parameterized constructor-this constructor is written by the user with the paramter for any constructor initialization
+	Syntax: AccessSpecifier ClassName(Paramters)
+			{
+				sop();//statements
+			}
+
+3)Inheritance is the process of acquiring properties from one class to another class that is acquiring properties from parent,super class to child or sub class
+	In inheritance "extends" keyword is used to achieve the Inheritance
+	there are types of inheritance:multilevel,hybrid,heirarchial etc
+	Syntax:
+	
+	class Parent{
+	
+		//set of statements
+	}
+	class Child extends Parent{
+	
+		//set of statements
+
+	}
+	
+4)Encapsulation is the process of grouping data into a single unit.Encapsulation is achieved with the help of a keyword called private
+	there are set of rules to be followed inorder to achieve encapsulation:
+	i)class should be public.
+	ii)all the data members are made as "Private".
+	iii)getter and setter methods are used.
+	iv)default constrtuctor is created.
+	
+	
+	
+	
+	
